@@ -1,0 +1,122 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+#remaining {
+    flex-grow: 1;
+}
+
+#messages {
+    height: 200px;
+    background: whitesmoke;
+    overflow: auto;
+}
+
+#chat-room-frm {
+    margin-top: 10px;
+}
+
+#user_list {
+
+    overflow-y: auto;
+}
+
+#messages_area {
+    height: 650px;
+    overflow-y: auto;
+    background-color: #e6e6e6;
+}
+
+.header {
+    background: #3a921e;
+    padding: 20px 0;
+    background-image: url(../../img/bg.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-bottom: 2rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #b5e916;
+    font-size: 17px;
+}
+
+.flex a {
+    color: #000000ff;
+    text-decoration: underline;
+}
+
+span.green {
+    padding-right: 50px;
+}
+
+a.git {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.info {
+    display: flex;
+}
+
+form#chat_form {
+    margin-top: 20px;
+}
+
+div#messages_area {
+    background: url(../../img/tg.png);
+    background-size: contain;
+}
+
+.card-header {
+    background: #4ba818;
+    color: #fff;
+}
+
+.profil-bar {
+   /* background: #f1f1f1;
+    border-radius: 7px;
+    border: 1px solid #ddd;*/
+}
+
+.row.justify-beetwen {
+    justify-content: space-between;
+    background: url(../../img/bg.svg) no-repeat;
+    background-position: center center;
+}
+
+iframe#pmchats {
+    border: 0px;
+}
+
+button#send {
+    background: #4ba818;
+    border: none;
+}
+
+a.list-group-item.list-group-item-action:hover {
+    cursor: pointer;
+}
+
+li.list-group-item:hover {
+    cursor: pointer;
+    background: #f2f3f2;
+}
+
+.card.mt-3 {
+    margin-top: 0px !important;
+}

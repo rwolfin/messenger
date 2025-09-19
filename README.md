@@ -9,20 +9,20 @@
 
 ```bash
 messenger/
-├── database/              # Подключение к базе данных и модели
-│   ├── Database_connection.php
-│   ├── ChatUserModel.php
-│   └── GroupChatMessageModel.php
-├── public/                # Публичные файлы
-│   ├── index.php
-│   ├── group_chat.php
-│   └── private_chat.php
-├── vendor/                # Зависимости Composer (Ratchet, PHPMailer)
-├── bin/                   # Скрипты сервера WebSocket
-│   └── server.php
-├── action.php             # Обработчик AJAX-запросов
-├── composer.json          # Управление зависимостями
-└── README.md              # Этот файл
+├── 📁 database/              # База данных и модели
+│   ├️  🗃️ Database_connection.php
+│   ├️  👤 ChatUserModel.php
+│   └️  💬 GroupChatMessageModel.php
+├── 🌐 public/                # Публичные файлы
+│   ├️  🏠 index.php
+│   ├️  👥 group_chat.php
+│   └️  🔒 private_chat.php
+├── 📦 vendor/                # Зависимости Composer
+├── ⚙️ bin/                   # Серверные скрипты
+│   └️  🖥️ server.php
+├️  🔧 action.php             # Обработчик AJAX
+├️  📦 composer.json          # Менеджер зависимостей
+└️  📖 README.md              # Документация
 ```
 
 
